@@ -2,7 +2,7 @@ dependencies:
 - pandas
 - numpy
 - bokeh
-- sklearn
+- scikit-learn
 - matplotlib
 - seaborn
 - pip
