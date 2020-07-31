@@ -5,6 +5,7 @@
 
 
 # Librerías
+from os.path import join, dirname
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -19,7 +20,7 @@ from bokeh.models import ColumnDataSource, Slider, HoverTool, CDSView, IndexFilt
 # In[2]:
 
 
-df = pd.read_csv('datos_ej2.csv')
+df = pd.read_csv(join(dirname(__file__), 'data/datos_ej2.csv'))
 df.head()
 
 
