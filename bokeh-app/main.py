@@ -5,6 +5,7 @@
 
 
 # Librerías
+from os.path import join, dirname
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
